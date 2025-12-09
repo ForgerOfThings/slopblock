@@ -1,0 +1,1 @@
+This is a very basic extension i am building to block AI content on youtube, to discuss the development, report bugs, or otherwise support/communicate with me, please join https://www.discord.gg/kpBYYA5Nuw
