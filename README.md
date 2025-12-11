@@ -5,7 +5,7 @@ To switch from delete mode to label mode, go to manage extension > preferences >
 What does it block?
 
 - AI generated video summaries
-- Channels we have logged as AI
+- Videos and channels we have logged as AI on the reccomended and search pages
 
 
 Roadmap
