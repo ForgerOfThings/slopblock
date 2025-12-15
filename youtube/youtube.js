@@ -26,7 +26,7 @@ var blacklistedChan = [
   "ThePregnantMeow07", "altamash_ry7", "UsmanLife0", "cutecatstories-e6f", "UttamTalesofficial", "Crypto_ogisj", "aismart7", "hem2718", "mdanik2282", "CatCartoon2024-m7v", "TheFurrySquad-ai", "trendingbangla1",
   "araditya09", "CatMax-c9o", "WhiskerTalesYt1", "PakistanishortskiDunia", "Bitty_ai-1M", "CatsLife-ib", "jv.jahidvai", "mansivines", "MetaMeowAI", "uniqueshots90", "AlmeenKhan-hq8dw", "luppyy22", "Meowseason17",
   "KAHANIBYTETV", "gingercat-c5v", "SapanaatuHamra0707", "CartoonId-v7w", "Journey_00000", "CatsJig", "cat-journey-9988", "Goragoricids", "Aicat905", "movieemob", "MaiwMilkyStock", "Curiouswhiskers-x2n",
-  "animewo_official", "MeowgicAIcat", "Umm-d8p", "artifexAIwithAkshay", "A1adventurefun54", "The-One-Cart", "aieditor4"
+  "animewo_official", "MeowgicAIcat", "Umm-d8p", "artifexAIwithAkshay", "A1adventurefun54", "The-One-Cart", "aieditor4", "ImpossibleAIs-c9z", "Rapoh1", "johnnaeranks"
 ];
 
 // Callback functions to execute when mutations are observed
