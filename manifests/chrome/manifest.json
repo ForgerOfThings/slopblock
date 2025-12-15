@@ -1,0 +1,52 @@
+{
+  "manifest_version": 3,
+  "name": "Slopblock",
+  "version": "1.2",
+  "description": "Blocks AI Videos/Channels on youtube",
+  "permissions": [
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_ui": {
+    "page": "ui/settings/settings.html",
+    "open_in_tab": true
+  },
+  "action": {
+    "default_title": "SlopBlock Options",
+    "default_popup": "ui/popup/popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "js": [
+        "youtube/youtube.js"
+      ],
+      "run_at": "document_idle",
+      "all_frames": false
+    },
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "js": [
+        "/lib.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ],
+    "browser_specific_settings": {
+    "gecko": {
+      "id": "@slopblock",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  }
+}

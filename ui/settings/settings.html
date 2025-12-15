@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <style>
+    body {
+      background-color: #1e1e21;
+      align-items: center;
+      display:flex;
+      flex-direction: column;
+    }
+    *{
+      color:#ff624c;
+    }
+    p {
+      font-size:35px;
+    }
+    select{
+      display:inline-block;
+      background-color:#ffa699; 
+      color:#1e1e21;
+      border:none;
+      border-radius:25px;
+    }
+    button{
+      background-color:#ffa699;
+      color:#1e1e21;
+      border:none;
+      font-size:25px;
+      border-radius:25px;
+      width:25%;
+    }
+    div {margin-bottom:25px;}
+  </style>
+</head>
+
+<body>
+  <div>
+    <p>Youtube settings</p>
+    <form>
+      <label for="ytSummary">AI Generated Summary:</label>
+      <select name="ytSummary" id="ytSummary">
+        <option value="hide">hide</option>
+        <option value="show">show</option>
+      </select>
+      <br>
+      <label for="ytVideo">AI Generated Videos:</label>
+      <select name="ytVideo" id="ytVideo">
+        <option value="hide">hide</option>
+        <option value="label">label</option>
+        <option value="show">show</option>
+      </select>
+    </form>
+  </div>
+  <button id="button" type="button">Save</button>
+  <script src="settings.js"></script>
+</body>
+
+</html>
